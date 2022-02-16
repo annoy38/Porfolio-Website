@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headPart{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(35, 109, 228);
+}
+.menu{
+    float: right;
+    list-style: none;
+}
+.menu li{
+    
+    display: inline-block;
+    margin: 0 25px;
+    line-height: 50px;
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.menu li a:hover{
+    text-decoration: underline ;
+}
+.bellowbody{
+    background-color: rgb(219, 213, 213);
+    width: 100%;
+    height: 100%;
+}
+.middelPart{
+    width: 100%;
+    height: 280px;
+    background-color: rgb(92, 158, 233);
+}
+
+.middelBody{
+    margin-left: 150px;
+    padding-top: 30px;
+
+}
+.leftPart{
+    margin: 0px 10px;
+}
+
+.leftPart .pic{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 20px;
+    
+}
+.rightPart{
+    
+    margin-left: 250px;
+    margin-right: 50px;
+}
+.rightPart h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 5px;
+    font-style: normal;
+    color: white;
+}
+.rightPart h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 6px;
+    color: white;
+}
+.rightPart p{
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+.rightPart p a{
+    text-decoration: none;
+}
+.rightPart p a:hover{
+    color: rgb(12, 133, 246);
+}
+.rightPart button{
+    padding: 10px;
+    background-color: rgb(12, 133, 246);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-style: none;
+}
+.rightPart button:hover{
+    background-color: white;
+    color: rgb(12, 133, 246);
+}
+.cernterBody{
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 360px;
+}
+.cernterBody h2{
+    margin-bottom: 8px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.cernterBody p{
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.cernterBody p a{
+    text-decoration: none;
+}
+.cernterBody p a:hover{
+    color: rgb(12, 133, 246);
+}
+.lastPart{
+    margin: 50px 180px;
+    
+}
+.fontEnd{
+     background-color: white;
+     margin-right: 720px;
+     border-radius: 20px;
+}
+.fontEnd .fontendImage{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 36%;
+    margin-bottom: 25px;
+}
+.fontEnd .fontHead{
+    text-align: center;
+    margin-bottom: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.fontEnd .fontPage{
+   margin-left: 85px;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+.backEnd{
+    background-color: white;
+    margin-right: 720px;
+    padding: 0px 80px;
+    margin: 10px 0px;
+    position: absolute;
+    top:485px;
+    left: 535px;
+    border-radius: 20px;
+}
+.backEnd .backendImage{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 28%;
+    margin-bottom: 25px;
+}
+.backEnd .backHead{
+    text-align: center;
+    margin-bottom: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.backEnd .backPage{
+    margin-left: 14px;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+.others{
+    
+    background-color: white;
+    margin-right: 720px;
+    position: absolute;
+    top: 485px;
+    left: 900px;
+    padding: 0px 70px;
+    margin: 10px 0px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+
+}
+.others .othersImage{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-bottom: 8px;
+}
+.others .othersHead{
+    text-align: center;
+    margin-bottom: 12px;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+.others .othersPage{
+    margin-left: 20px;
+   font-family: 'Roboto Condensed', sans-serif;
+   padding-left: 20px;
+}
